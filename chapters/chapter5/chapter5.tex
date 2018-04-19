@@ -1,0 +1,44 @@
+\chapter{Results and Conclution}
+% berif introduction of this chapter and what we are going to cover in this chapter
+\section{Results}
+\begin{tcolorbox}
+	\begin{itemize}
+		\item table of all ALS methods in three condition pairs (explain the table)
+		\item table of all ALS+Bias methods in three condition pairs (explain the table)
+		\item table of all Bias methods in three condition pairs (explain the table)
+\end{itemize}
+\end{tcolorbox}
+
+\section{Conclution}
+\subsection{challenges}
+\begin{tcolorbox}
+	\begin{itemize}
+		\item brief reviw of our challenges in this study (file generation order)	
+		\item the more differences at the first of pipeline the better results we get 
+		(this means our methods are dependent to the pattern of utility metrices but in general they are applicable on PreFreesurfer pipline)
+		\item if we do the experiment on the other pipelines we can mention that process 
+		of subjects are time consuming and we had to complete one pipeline to start working on the other one and do the experiment
+		\item take CentOS6 vs CentOS7 and present the superimposed-plot "all" methods with training ratio of 0.6
+\end{itemize}
+\end{tcolorbox}
+\subsection{Applications}
+\begin{tcolorbox}
+	\begin{itemize}
+		\item if we do experiment on decimal numeral range and get sure about our methods 
+		performance we can say our method can predict the time generation file of the subject 
+		so we can handle when to stop the pipeline or when to resume it.
+		\item use to predict the content of files by use of their binary code 
+		(or atleast we can antisipate files with the same content in all subject. 
+		But the question is when we have to respect the file generation order how we can take the advantage of knowing constant files)
+\end{itemize}
+\end{tcolorbox}
+\section{Future works}
+\begin{tcolorbox}
+	\begin{itemize}
+		\item checking by appending the utility matrix of two follow up pipelines (Freesurfer,PostFreesurfer) 
+		to the PreFreesurfer utility matrix if we could be able to improve our prediction results over the results 
+		of just Bias
+		\item the correlation of random selected subjects and accuracy (in this case by classifing subjects maybe we could get better result)
+
+\end{itemize}
+\end{tcolorbox}
