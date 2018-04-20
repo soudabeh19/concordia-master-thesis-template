@@ -1,33 +1,26 @@
-\chapter{Methodology}
-% berif introduction of this chapter and what we are going to cover in this chapter
-\section{Selection Methods}
+\chapter{Dataset}
+% berif introduction of this chapter and what we are going to cover in this chapter 
+% why we choosed this dataset (importance of reproducibility in neuroscience, huge files with long processing time)  
+\section{HCP pipelines}
 \begin{tcolorbox}
 \begin{itemize}
-\item what was our challenge to make us to provide different methods (sequential file generation in pipeline)
-\item explain random-unreal and why we don't use it
-\item cold start problem and how we conqure it (first row and a complete coloumn)
-\item columns 
-\item rows
-\item random-real
-\item random-diagonal (parameters)(refer to paper:...)
-\item random-triangular-L (parameters)(refer to paper:...)
-\item random-triangular-S (parameters)(refer to paper:...)
+\item explain HCP pipelines
+\item what are subjects and their files 
+\item what do we mean by differences (what do these differences reperesent? what kind of differences are they? how they identified?)
+\item size of the dataset (\#subjects,\#files)
+\item which pipeline of HCP we have used already
 \end{itemize}
 \end{tcolorbox}
 
-\section{Bias + Prediction}
+
+\section{Utility Matrix}
 \begin{tcolorbox}
 \begin{itemize}
-\item why you came up with considering Biases (huge constant portion in our utility matrix- some places were complete balck or white)
-\item on which methods this technique is applied?
-\item write the formula according to Netflix prize paper
-\end{itemize}
-\end{tcolorbox}
-
-\section{bias}
-\begin{tcolorbox}
-\begin{itemize}
-\item on which methods this technique is applied?
-
+\item what are item and user in our study (subjects,files)
+\item what we mean by conditions (CentOS5, CentOS6, CentOS7)
+\item check if I have to mention about CentOS6 built "?" 
+\item number of differences in each condition pairs
+\item what 1,0 reperesent in my binary utility matrix (with an example)
+\item files are arranged by their modification time (get sure that files' sequence is identical for all subjects of the condition pair) 
 \end{itemize}
 \end{tcolorbox}
